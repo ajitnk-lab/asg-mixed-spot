@@ -17,6 +17,12 @@ CdkpythonSsoStack(app, "CdkpythonSsoStack",
 
     #env=cdk.Environment(account=os.getenv('CDK_DEFAULT_ACCOUNT'), region=os.getenv('CDK_DEFAULT_REGION')),
 
+    # configure Environment
+        env = cdk.Environment(
+            account="253513219195",
+            region="ap-south-1"
+        )
+
     # Uncomment the next line if you know exactly what Account and Region you
     # want to deploy the stack to. */
 
